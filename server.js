@@ -6,7 +6,7 @@ const app = express();
 const router = express.Router();
 
 router.get('/', cors(), (req,res) => {
-    res.json({ message: 'Hello Render!' });
+    res.json({ message: 'Hello World!' });
 });
 
 app.use ('/', router);
